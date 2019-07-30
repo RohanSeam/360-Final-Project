@@ -1,0 +1,21 @@
+public class WeatherStation implements WeatherStationInt {
+   private String dataStorage;
+   private SensorSuite sensorSuite;
+   private Display display;
+   
+   public void storeData(String dataItem, String type) {
+      dataStorage = dataItem;
+   }
+   
+   public void processData(String dataItem, String type) {
+      
+   }
+   
+   public void sendData() {
+      display.updateDisplay(dataStorage, null);
+   }
+   
+   public void transferData(String externalDevice) {
+      externalDevice = dataStorage;
+   }
+}
