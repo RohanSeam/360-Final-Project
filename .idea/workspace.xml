@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5ddf5e1-dc19-454c-9e35-07fc818d3ea0" name="Default Changelist" comment="initial commit with java 11">
-      <change afterPath="$PROJECT_DIR$/src/components/console/ControlInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/console/DisplayInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sensors/Anemometer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sensors/RainCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sensors/SensorInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sensors/Thermometer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sensors/WindDirection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/weatherstation/WeatherStationInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/360-Final-Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/360-Final-Project.iml" afterDir="false" />
-    </list>
+    <list default="true" id="f5ddf5e1-dc19-454c-9e35-07fc818d3ea0" name="Default Changelist" comment="Added interfaces for every class&#10;Added classes for each sensor." />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/sensors/Anemometer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -81,8 +70,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1273" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="339" />
+    <option name="y" value="-18" />
     <option name="width" value="1294" />
     <option name="height" value="1407" />
   </component>
@@ -109,13 +99,6 @@
               <item name="360-Final-Project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="360-Final-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="360-Final-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="360-Final-Project" type="b2602c69:ProjectViewProjectNode" />
@@ -194,12 +177,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564376387909</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added interfaces for every class&#10;Added classes for each sensor.">
+      <created>1564378241317</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564378241317</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35818475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -225,7 +214,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit with java 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit with java 11" />
+    <MESSAGE value="Added interfaces for every class&#10;Added classes for each sensor." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added interfaces for every class&#10;Added classes for each sensor." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/360-Final-Project.iml">
@@ -313,7 +303,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/sensors/Anemometer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
