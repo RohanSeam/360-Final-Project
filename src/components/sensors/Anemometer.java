@@ -3,7 +3,12 @@ package components.sensors;
 public class Anemometer implements SensorInt
 {
     @Override
-    public void sendStatus()
+    public int sendStatus()
+    {
+
+    }
+
+    public int sendWindSpeed()
     {
 
     }

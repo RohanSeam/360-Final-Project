@@ -2,8 +2,15 @@ package components.sensors;
 
 public class WindDirection implements SensorInt
 {
+    private int windDirection;
+
     @Override
-    public void sendStatus()
+    public int sendStatus()
+    {
+
+    }
+
+    public int sendWindDir()
     {
 
     }
